@@ -2,7 +2,7 @@ FROM alpine:3.20
 
 # Metadata
 LABEL name="tftpd"
-LABEL authors="iKono Telecomunicaciones"
+LABEL authors="wastrachan/docker-tftpd"
 
 # Install tftp-hpa and tzdata
 RUN apk --no-cache add tftp-hpa tzdata

@@ -64,6 +64,11 @@ The `-c` flag allows you to create new files in case they do not exist.
 * Docker Compose - v2.18.1
 
 
-## Autors
+## Base on
+
+* [wastrachan/docker-tftpd](https://github.com/wastrachan/docker-tftpd)
+
+
+## Adapted for
 
 * iKono Telecomunicaciones
