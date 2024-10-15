@@ -21,6 +21,9 @@ sed -i "s/^tftpd\:x\:101/tftpd\:x\:$PGID/" /etc/group
 # Set permissions
 chown -R $PUID:$PGID /tftpboot
 
+# Create log files
+touch /var/log/messages.log
+
 # Start syslogd
 /sbin/syslogd -O /var/log/tftpd.log &
 
